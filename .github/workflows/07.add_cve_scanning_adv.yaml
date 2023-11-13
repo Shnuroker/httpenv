@@ -52,7 +52,7 @@
             uses: aquasecurity/trivy-action@master
             with:
               image-ref: ${{ github.run_id }}
-              format: table 
+              format: table trivy-results.sarif
               exit-code: 0
     
     #NEW: (START) ##########################################################
