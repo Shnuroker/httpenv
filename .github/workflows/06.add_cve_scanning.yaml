@@ -50,7 +50,7 @@
             id: docker_meta
             uses: docker/metadata-action@v5
             with:
-              images: ${{ secrets.DOCKERHUB_USERNAME }}/httpenv
+              images: ${{ secrets.DOCKERHUB_USERNAME }}/httpenv.git
               flavor: |
                 latest=false
               tags: |
