@@ -24,4 +24,4 @@
           uses: docker/build-push-action@v5
           with:
             push: ${{ github.event_name != 'pull_request' }}
-            tags: talleriel/bretfisher-httpenv-app:latest,talleriel/bretfisher-httpenv-app:01
+            tags: talleriel/httpenv:latest,talleriel/httpenv:01
